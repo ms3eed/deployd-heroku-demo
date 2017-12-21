@@ -1,0 +1,37 @@
+{
+	"type": "Collection",
+	"properties": {
+		"boxId": {
+			"name": "boxId",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "boxId",
+			"order": 0
+		},
+		"senderId": {
+			"name": "senderId",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "senderId",
+			"order": 1
+		},
+		"receiverId": {
+			"name": "receiverId",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "receiverId",
+			"order": 2
+		},
+		"status": {
+			"name": "status",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "status",
+			"order": 3
+		}
+	}
+}

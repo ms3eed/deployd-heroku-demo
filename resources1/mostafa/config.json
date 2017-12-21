@@ -1,0 +1,13 @@
+{
+	"type": "Collection",
+	"properties": {
+		"tt": {
+			"name": "tt",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "tt",
+			"order": 0
+		}
+	}
+}

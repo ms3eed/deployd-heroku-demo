@@ -17,9 +17,9 @@ app.get('/hello-express', function (req, res) {
 
 // setup deployd
 require('deployd').attach(server, {
-  env: nodeEnv,
+  env: "development",
   db: {
-    connectionString: process.env.MONGOHQ_URL
+    connectionString: "mongodb://heroku_cc96cb9g:k1998ed9oclbpm52samskr5l1d@ds133231.mlab.com:33231/heroku_cc96cb9g" || process.env.MONGOHQ_URL
                         || process.env.MONGOLAB_URI
                         || 'mongodb://localhost:27017/deployd'
   }
